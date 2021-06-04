@@ -24,7 +24,7 @@ In the following main WEBSITE masking code is WRONG.
 https://camelyon17.grand-challenge.org/Data/
 
 
-annotation_mask = mir.AnnotationToMask()
-label_map = {'_0': 255, '_1': 255, '_2': 0}
-NOT>>>>label_map = {'_0': 1, '_1': 1, '_2': 0}  >>> THIS IS WRONG
+annotation_mask = mir.AnnotationToMask() \
+label_map = {'_0': 255, '_1': 255, '_2': 0}\
+NOT>>>>label_map = {'_0': 1, '_1': 1, '_2': 0}  >>> THIS IS WRONG\
 conversion_order = ['_0', '_1', '_2']
