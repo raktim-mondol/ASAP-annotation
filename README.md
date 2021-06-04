@@ -7,7 +7,7 @@ https://github.com/computationalpathologygroup/ASAP/releases/tag/1.9
 
 This annotation works on python 3.6 does NOT work on 3.7
 Adding ASAP bin folder to windows environment variable does not work
-So when creating mask I used to enter in the following location then run the python code. 
+So when creating mask I used to enter in the following location then run the python code. \
 C:\Program Files\ASAP 1.8\bin
 
 Now importing following line should work
