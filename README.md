@@ -26,5 +26,5 @@ https://camelyon17.grand-challenge.org/Data/
 
 annotation_mask = mir.AnnotationToMask() \
 label_map = {'_0': 255, '_1': 255, '_2': 0}\
-NOT>>>>label_map = {'_0': 1, '_1': 1, '_2': 0}  >>> THIS IS WRONG\
+NOT>>>>label_map = {'_0': 1, '_1': 1, '_2': 0}  >>> THIS IS WRONG for Camelyon16 dataset\
 conversion_order = ['_0', '_1', '_2']
